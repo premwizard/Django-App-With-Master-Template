@@ -1,0 +1,12 @@
+{% extends "Master.html" %}
+{% block content %}
+<a href="{% url 'about' %}">About</a>
+<h3>Home Template</h3>  
+<p>Welcome to the home page!</p>
+{% endblock content %}
+
+  {% block content_2 %}
+  <h3>Home Template 2</h3>
+  <p>This is the second content block of the home page.</p> 
+        {% endblock content_2 %}
+
